@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <link rel="stylesheet" type="text/css" href="static/products.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: pink;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav button {
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        nav button:hover {
+            background-color: #555;
+        }
+
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .image-container {
+            width: 30%;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            margin-bottom: 50px;
+            padding: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.667KgV4_3BLOhgyhVrcStgHaIv&pid=Api&P=0&h=180"alt="Image 1" width="500px" height="400px">
+            <ul>
+                <li><a href="/clothing">CLOTHING</a></li>
+            </ul>
+        </div>
+        <div class="image-container">
+            <img src="https://www.godfatherstyle.com/wp-content/uploads/2020/12/Fashion-Accessories2.jpg"alt="Image 2">
+            <ul>
+                <li><a href="/accesories">ACCESSORIES</a></li>
+            </ul>
+        </div>
+        <div class="image-container">
+            <img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?cs=srgb&dl=pexels-pixabay-356056.jpg&fm=jpg" alt="Image 3">
+            <ul>
+                <li><a href="/electronics">ELECTRONICS</a></li>
+            </ul>
+        </div>
+        <div class="image-container">
+            <img src="https://img.freepik.com/free-photo/man-delivering-groceries-customers_23-2149950071.jpg"alt="Image 4">
+            <ul>
+                <li><a href="/grocery">GROCERY</a></li>
+            </ul>
+        </div>
+        <div class="image-container">
+            <img src="https://www.shutterstock.com/image-photo/drug-prescription-treatment-medication-pharmaceutical-260nw-769176202.jpg"alt="Image 2">
+            <ul>
+                <li><a href="/medicines">MEDICINES</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

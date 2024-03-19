@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Management</title>
+    <link rel="stylesheet" type="text/css" href="static\orders.css">
+</head>
+<body>
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.order, .new-order {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+    </style>
+    <h1>Order Management</h1>
+
+    <div class="order">
+        <h2>order List</h2>
+        <ul id="\order-list">
+            
+        </ul>
+    </div>
+
+    <div class="new-order">
+        <h2>Create New Order</h2>
+        <label for="product-name">Product Name:</label>
+        <input type="text" id="product-name">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity">
+        <button id="create-order">Create Order</button>
+    </div>
+
+</body>
+</html>

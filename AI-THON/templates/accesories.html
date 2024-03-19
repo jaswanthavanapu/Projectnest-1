@@ -1,0 +1,183 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesories Store</title>
+
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav {
+        background-color: pink;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav button {
+        background-color: #555;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    nav button:hover {
+        background-color: #555;
+    }
+
+    .container {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .image {
+        width: 20%; 
+        border: 1px solid #ddd;
+        margin-bottom: 50px;
+        padding: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .search-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    input[type="text"] {
+        width: 300px;
+        padding: 5px;
+    }
+
+    button[type="submit"] {
+        background-color: #007bff;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>ACCESORIES</h1>
+    </header>
+    
+    <div class="container">
+        <div class="image">
+            <img src="https://www.southjewellery.com/wp-content/uploads/2016/08/diamond_choker_for_brides.jpg" alt="brides set" lenth="300" height="700" >
+            <h2>Bridal Set</h2>
+            <p>price:$1599.0</p>
+            <p>material type: Base material</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div> 
+        <div class="image">
+            <img src="https://2.bp.blogspot.com/_aDOGBnMIQvw/Swu7fXyDiiI/AAAAAAAAAKs/j5kIyIPONSU/s1600/P1070541.JPG" alt="Chain">
+            <h2>Metal pendant chain</h2>
+            <p>price:$199.0</p>
+            <p>materrial type:metal</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div>
+        <div class="image">
+            <img src="https://i.pinimg.com/736x/49/6a/70/496a70ee739faf4e734db047907a24f9--bangle-bracelets-bangles.jpg" alt="Bangles">
+            <h2> gold plated Bangles</h2>
+            <p>price:$299.0</p>
+            <p>material type:alloy</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div>
+        <div class="image">
+            <img src="https://1.bp.blogspot.com/-fAT6B-k2RvM/Vek9HvD_zwI/AAAAAAAAA8E/V792-i-gnMI/s1600/P1030369-793129.JPG" alt="Earrings" height="400px" length="300px">
+            <h2>Earrings</h2>
+            <p>price:$299.0</p>
+            <p>material type:Brass</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div>
+        <div class="image">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81ssf3nYIEL._AC_UL1500_.jpg" alt="Watch">
+            <h2>Watch</h2>
+            <p>price:$1199.0</p>
+            <p>material type:Analog</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div>
+        <div class="image">
+            <img src="https://i.pinimg.com/originals/08/9b/19/089b19728d321e8542ee3331854a70a8.jpg" alt="Slippers" length="300px" height="700px">
+            <h2>Slippers</h2>
+            <p>price:$449.0</p>
+            <p>material type:back-strap</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div>
+        <div class="image">
+            <img src="https://i.pinimg.com/736x/7a/dc/13/7adc13d2b6a8657223413bb09a61198b.jpg"alt="Hip belt">
+            <h2>waist hip belt</h2>
+            <p>price:$1999.0</p>
+            <p>material type:alloy</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div>
+        <div class="image">
+            <img src="https://i1.wp.com/www.ecstasycoffee.com/wp-content/uploads/2016/09/Pretty-anklets-perfect-for-a-beach-wedding.jpg?resize=539%2C928" alt="anklets">
+            <h2>Anklets</h2>
+            <p>price:$199.0</p>
+            <p>material type:Brass</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div>
+        <div class="image">
+            <img src="https://thumbs.dreamstime.com/b/makeup-accessories-brushes-eye-shadows-65585458.jpg" alt="Make over items">
+            <h2>Make over items</h2>
+            <p>price:$499.0</p>
+            <p>Brand name:my tya</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div>
+            <div class="image">
+                <img src="https://i.pinimg.com/originals/a7/ea/d3/a7ead3c389c39fa3e038347baf17b8e6.jpg" alt="Hand bag" length="300px" height="700px">
+                <h2>Hand Bag</h2>
+                <p>price:$649.0</p>
+                <p>material type:leather</p>
+                <button>Add to cart</button>
+                <button>BUY NOW</button>
+        </div>
+        <div class="image">
+            <img src="https://oldnavy.gap.com/webcontent/0014/810/888/cn14810888.jpg"alt="belt">
+            <h2>Leather Belt</h2>
+            <p>price:$249.0</p>
+            <p>material type:leather</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div>
+        <div class="image">
+            <img src="https://i.pinimg.com/originals/e5/f0/c7/e5f0c7574cd378448ba412d11c085e83.jpg" alt="Perfumes">
+            <h2>Perfumes</h2>
+            <p>price:$599.0</p>
+            <p>Fragrance classification:eau de parfum</p>
+            <button>Add to cart</button>
+            <button>BUY NOW</button>
+        </div>
+        
+    </div>
+</body>
+</html>

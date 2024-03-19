@@ -1,0 +1,11 @@
+image-container {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .image-container img {
+    max-width: 20%;
+    bottom: auto; 
+    height:auto;
+    padding: 1%;
+  }

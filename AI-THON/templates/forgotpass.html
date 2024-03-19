@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d07979;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #e2b7ba;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(223, 217, 217, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #76d3df;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #60adc5;
+            color: #ffffff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <title>Online Store - Forgot Password</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Forgot Password</h2>
+        <form action="reset_password.php" method="post">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Reset Password">
+        </form>
+    </div>
+</body>
+</html>
